@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:700,600");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.weatherforecast {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+  padding: 158px 0;
+  width: 1280px;
+}
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --bunting: rgba(14, 32, 77, 1);
+  --elephant: rgba(15, 50, 61, 1);
+  --navy-blue: rgba(26, 136, 216, 1);
+  --bay-of-many: rgba(33, 61, 130, 1);
+  --astral: rgba(53, 130, 155, 1);
+  --masala: rgba(60, 60, 60, 1);
+  --gravel: rgba(75, 75, 75, 1);
+  --bracken: rgba(77, 42, 0, 1);
+  --rusty-nail: rgba(137, 79, 8, 1);
+  --seashell: rgba(241, 241, 241, 1);
+  --desert-storm: rgba(248, 248, 248, 1);
+
+  --font-size-m: 14px;
+  --font-size-l: 16px;
+  --font-size-xl: 42px;
+  --font-size-xxl: 46px;
+
+  --font-family-inter: "Inter";
+}
